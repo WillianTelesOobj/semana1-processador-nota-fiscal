@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="semana1-processador-nota-fiscal-main" target="11" />
+      <module name="semana1-processador-nota-fiscal-main" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
