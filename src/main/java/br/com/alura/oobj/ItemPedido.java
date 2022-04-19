@@ -22,7 +22,7 @@ public class ItemPedido {
   private String classeFiscal;
 
   public Long getCodigo() {
-    return codigo;
+    return this.codigo;
   }
 
   public void setCodigo(Long codigo) {
@@ -30,7 +30,7 @@ public class ItemPedido {
   }
 
   public String getDescricao() {
-    return descricao;
+    return this.descricao;
   }
 
   public void setDescricao(String descricao) {
@@ -38,7 +38,7 @@ public class ItemPedido {
   }
 
   public Integer getQuantidade() {
-    return quantidade;
+    return this.quantidade;
   }
 
   public void setQuantidade(Integer quantidade) {
@@ -46,7 +46,7 @@ public class ItemPedido {
   }
 
   public BigDecimal getValorUnitario() {
-    return valorUnitario;
+    return this.valorUnitario;
   }
 
   public void setValorUnitario(BigDecimal valorUnitario) {
@@ -54,7 +54,7 @@ public class ItemPedido {
   }
 
   public String getClasseFiscal() {
-    return classeFiscal;
+    return this.classeFiscal;
   }
 
   public void setClasseFiscal(String classeFiscal) {
@@ -64,11 +64,11 @@ public class ItemPedido {
   @Override
   public String toString() {
     return "ItemPedido{" +
-        "codigo=" + codigo +
-        ", descricao='" + descricao + '\'' +
-        ", quantidade=" + quantidade +
-        ", valorUnitario=" + valorUnitario +
-        ", classeFiscal='" + classeFiscal + '\'' +
+        "codigo=" + this.codigo +
+        ", descricao='" + this.descricao + '\'' +
+        ", quantidade=" + this.quantidade +
+        ", valorUnitario=" + this.valorUnitario +
+        ", classeFiscal='" + this.classeFiscal + '\'' +
         '}';
   }
 }

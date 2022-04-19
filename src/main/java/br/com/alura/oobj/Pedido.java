@@ -7,7 +7,7 @@ public class Pedido {
   private List<ItemPedido> itens;
 
   public List<ItemPedido> getItens() {
-    return itens;
+    return this.itens;
   }
 
   public void setItens(List<ItemPedido> itens) {
@@ -17,7 +17,7 @@ public class Pedido {
   @Override
   public String toString() {
     return "Pedido{" +
-        "itens=" + itens +
+        "itens=" + this.itens +
         '}';
   }
 }
